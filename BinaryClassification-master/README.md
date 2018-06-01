@@ -1,5 +1,7 @@
 # BinaryClassification
 
+## Dataset
+
 Admissions.csv dataset contains data on 644 applicants with the following columns:
 
 1.  gre - applicant's score on the Graduate Record Exam, a generalized test for prospective graduate students. Score ranges from 200 to 800.

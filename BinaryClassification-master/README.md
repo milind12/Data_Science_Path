@@ -13,3 +13,11 @@ Admissions.csv dataset contains data on 644 applicants with the following column
 Function is internally used by LogisticRegression model to predict probabilities.It is used because 1)contains exponential term (due to which it is always positive). 2) t/(1+t) form which limits its range from 0 to 1.
 	
 
+## Training 
+
+'fit' method of LogisticRegression class is used for training model. It takes two parameters :- 1)'gpa' column (feature)  2) 'admit' column (target)
+
+## Classification
+
+'predict_proba' method of LogisticRegression class is used for predicting probabilities for target column
+'predict' method of LogisticRegression class is used for classification (based on threshold (which is 0.5(by default)).

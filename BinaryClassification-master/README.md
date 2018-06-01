@@ -1,5 +1,7 @@
 # BinaryClassification
 
+Classification in which target column has two discrete values is called Binary classification.
+
 ## Dataset
 
 Admissions.csv dataset contains data on 644 applicants with the following columns:

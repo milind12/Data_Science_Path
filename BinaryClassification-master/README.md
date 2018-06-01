@@ -1,6 +1,9 @@
 # BinaryClassification
 
-Type of classification in which target column has two labels is called Binary classification.In this project,'admit' column (of Admissions.csv ) which is '1' when student gets an admit or '0' when student is rejected by university is to be classified.
+Type of classification in which target column has two labels is called Binary classification.In this project, 'admit' column (of Admissions.csv ) which is
+'1' when student gets an admit 
+'0' when student is rejected by university
+is to be classified.
 
 ## Dataset
 

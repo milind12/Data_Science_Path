@@ -40,3 +40,6 @@ Now that we have cleaned and transformed a lot of the features in the data set, 
 3) We can remove a categorical column if it has hundreds of unique values (or categories) or it has a low variance. (no variability in the data for the model to capture).
 
 
+## Training and testing
+
+K Fold class is used to create K folds of dataset and cross_validation is done and average root mean square value is calculated to evaluate the model

@@ -40,3 +40,14 @@ Descriptions for the relevant columns:
 
 17. cnt - The total number of bike rentals (casual + registered)
 
+## Feature Transformation
+
+'hr' column in bike_rentals contains the hours during which bikes are rented, from 1 to 24. A machine will treat each hour differently, without understanding that certain hours are related. We can introduce some order into the process by creating a new column with labels for morning, afternoon, evening, and night. This will bundle similar times together, enabling the model to make better decisions.
+
+## Applying Linear Regression
+
+We use the LinearRegression class from sklearn to train a machine learning algorithm on train set, then make predictions and calculate error metric.
+
+## Applying Random Forests
+
+Random forests tend to be much more accurate than simple models like linear regression. We use the RandomForestRegressor class from sklearn to train a machine learning algorithm on train set, then make predictions and calculate error metric.

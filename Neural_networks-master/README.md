@@ -14,11 +14,11 @@ iris.csv dataset has the following features:
 	
 5. species - Categorical. 2 species of iris flowers, Iris-virginica or Iris-versicolor.
 
-## sigmoid_activation function
+## Sigmoid_activation function
 
 sigmoid_activation has inputs x, a feature vector, and, theta, a parameter vector, of the same length to implement the sigmoid activation function. 
 
-## singlecost function
+## Singlecost function
 
 It computes the cost from just a single observation.
 
@@ -27,7 +27,7 @@ It computes the cost from just a single observation.
 2. Then it is called to assign the cost of variables x0, y0, and theta_init to variable first_cost.
 
 
-## multiplecost function
+## Multiplecost function
 
 multiplecost() estimates the cost of two layer neural network.
 
@@ -35,11 +35,11 @@ multiplecost() estimates the cost of two layer neural network.
 
 2. It assign the cost to variable c.
 
-## model
+## Model
 
 NNet3 class in scikit-learn takes 4 parameters for instantiation learning rate(used in gradient descent), maxepochs (max iterations for gradient descent), convergence_thres (costs convergence threshold i.e prev-curr > convergence_thres) and hidden units.
 
-### train, predict and test
+### Train, predict and test
 
 Train the neural network using features, target and model, which has been initialized with a set of parameters. 
 
